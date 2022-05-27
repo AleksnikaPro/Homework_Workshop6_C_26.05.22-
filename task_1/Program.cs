@@ -1,12 +1,11 @@
 ﻿// 1.Показать двумерный массив размером m×n заполненный вещественными числами
 
 Console.WriteLine("Введите число n:");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()?? "0");
 Console.WriteLine("Введите число m:");
-int m = int.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine()?? "0");
 
 double [,] myArray = new double [n,m];
-
 for (int row = 0; row < n; row++) 
 {
   for (int column = 0; column < m; column++)
