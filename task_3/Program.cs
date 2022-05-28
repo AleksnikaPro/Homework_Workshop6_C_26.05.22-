@@ -36,10 +36,11 @@ for (int i = 0; i < myArray.GetLength(0); i++)
     if (i % 2 == 0 
         & j % 2 == 0 
         & i !=0 
-        & j!=0)
-        myArray[i,j] = myArray[i,j] * myArray[i,j];
-        Console.Write($"{myArray[i,j]} ");     
+        & j !=0)
+      myArray[i,j] = myArray[i,j] * myArray[i,j];
+      Console.Write($"{myArray[i,j]} ");    
   }
+  
   Console.WriteLine();
 }
  Console.WriteLine();
